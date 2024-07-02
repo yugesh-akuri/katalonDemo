@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+validateLoginCreds,Chrome 125.0.0.0,This will validate the username and password for a user,,02-07-2024 21:33:54,02-07-2024 21:34:10,16.160s,PASSED
+,,,,,,,
+Test Cases/TestCase1_Record/DemoTest,Chrome 125.0.0.0,This is demo test in record mode,"@smoke, @sanity",02-07-2024 21:33:54,02-07-2024 21:34:10,15.908s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,02-07-2024 21:33:55,02-07-2024 21:33:58,3.771s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,02-07-2024 21:33:58,02-07-2024 21:34:00,1.566s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/a_Make Appointment""))",Chrome 125.0.0.0,,,02-07-2024 21:34:00,02-07-2024 21:34:03,3.569s,PASSED
+"setText(findTestObject(""Object Repository/Welcome_Page/input_Username_username""), ""John Doe"")",Chrome 125.0.0.0,,,02-07-2024 21:34:03,02-07-2024 21:34:04,0.699s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Welcome_Page/input_Password_password""), ""9NLz+4tGZcQ="")",Chrome 125.0.0.0,,,02-07-2024 21:34:04,02-07-2024 21:34:05,0.407s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/input_Demo account_form-control""))",Chrome 125.0.0.0,,,02-07-2024 21:34:05,02-07-2024 21:34:05,0.332s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Welcome_Page/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 125.0.0.0,,,02-07-2024 21:34:05,02-07-2024 21:34:05,0.453s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/button_Login""))",Chrome 125.0.0.0,,,02-07-2024 21:34:05,02-07-2024 21:34:06,0.866s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/form_Facility                              _20adf0""))",Chrome 125.0.0.0,,,02-07-2024 21:34:06,02-07-2024 21:34:07,0.573s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/input_Visit Date (Required)_visit_date""))",Chrome 125.0.0.0,,,02-07-2024 21:34:07,02-07-2024 21:34:07,0.532s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/td_30""))",Chrome 125.0.0.0,,,02-07-2024 21:34:07,02-07-2024 21:34:08,0.319s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/div_Comment""))",Chrome 125.0.0.0,,,02-07-2024 21:34:08,02-07-2024 21:34:08,0.515s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/button_Book Appointment""))",Chrome 125.0.0.0,,,02-07-2024 21:34:08,02-07-2024 21:34:09,0.570s,PASSED
+"click(findTestObject(""Object Repository/Welcome_Page/h2_Appointment Confirmation""))",Chrome 125.0.0.0,,,02-07-2024 21:34:09,02-07-2024 21:34:09,0.553s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Welcome_Page/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 125.0.0.0,,,02-07-2024 21:34:09,02-07-2024 21:34:10,0.310s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,02-07-2024 21:34:10,02-07-2024 21:34:10,0.449s,PASSED

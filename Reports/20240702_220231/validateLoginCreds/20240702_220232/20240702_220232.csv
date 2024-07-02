@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+validateLoginCreds,Chrome 125.0.0.0,This will validate the username and password for a user,,02-07-2024 22:02:40,02-07-2024 22:02:53,12.984s,PASSED
+,,,,,,,
+Test Cases/TestCase1/LoginValidation,Chrome 125.0.0.0,Validating the login Credentials,"@smoke, @sanity",02-07-2024 22:02:40,02-07-2024 22:02:53,12.822s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,02-07-2024 22:02:40,02-07-2024 22:02:44,4.104s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,02-07-2024 22:02:44,02-07-2024 22:02:48,3.706s,PASSED
+"click(findTestObject(""Object Repository/Home_Page/h1_CURA Healthcare Service""))",Chrome 125.0.0.0,,,02-07-2024 22:02:48,02-07-2024 22:02:48,0.427s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Home_Page/h1_CURA Healthcare Service""), 0)",Chrome 125.0.0.0,,,02-07-2024 22:02:48,02-07-2024 22:02:49,0.293s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Home_Page/a_Make Appointment""))",Chrome 125.0.0.0,,,02-07-2024 22:02:49,02-07-2024 22:02:49,0.315s,PASSED
+"click(findTestObject(""Object Repository/Home_Page/a_Make Appointment""))",Chrome 125.0.0.0,,,02-07-2024 22:02:49,02-07-2024 22:02:50,1.456s,PASSED
+"setText(findTestObject(""Object Repository/Home_Page/input_Username_username""), ""John Doe"")",Chrome 125.0.0.0,,,02-07-2024 22:02:50,02-07-2024 22:02:51,0.707s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Home_Page/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 125.0.0.0,,,02-07-2024 22:02:51,02-07-2024 22:02:52,0.424s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Home_Page/button_Login""))",Chrome 125.0.0.0,,,02-07-2024 22:02:52,02-07-2024 22:02:52,0.286s,PASSED
+"click(findTestObject(""Object Repository/Home_Page/button_Login""))",Chrome 125.0.0.0,,,02-07-2024 22:02:52,02-07-2024 22:02:53,0.838s,PASSED

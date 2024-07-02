@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validating the login Credentials</description>
+   <name>LoginValidation</name>
+   <tag>@smoke, @sanity</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>45e3a578-7295-4010-88e2-fac6780af9ab</testCaseGuid>
+</TestCaseEntity>

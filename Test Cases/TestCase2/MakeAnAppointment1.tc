@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>it will verify to make an appointment through an Hongkong facility</description>
+   <name>MakeAnAppointment1</name>
+   <tag>@smoke, @sanity</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74047b81-c231-45a1-a80f-92dfb11318b5</testCaseGuid>
+</TestCaseEntity>

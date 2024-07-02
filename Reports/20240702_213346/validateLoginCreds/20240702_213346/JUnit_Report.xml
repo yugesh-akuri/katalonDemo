@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="validateLoginCreds" time="16.16" tests="1" failures="0" errors="0">
+   <testsuite name="validateLoginCreds" tests="1" failures="0" errors="0" time="16.16" skipped="0" timestamp="02-07-2024T21:33:54" hostname="Yugeshvardhana - HYD00034.corp.resmed.org" id="Test Suites/validateLoginCreds">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\yugeshvardhana\\Katalon Studio\\DemoKatalon\\Reports\\20240702_213346\\validateLoginCreds\\20240702_213346"/>
+         <property name="logFiles" value="C:\\Users\\yugeshvardhana\\Katalon Studio\\DemoKatalon\\Reports\\20240702_213346\\validateLoginCreds\\20240702_213346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Yugeshvardhana - HYD00034.corp.resmed.org"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.117"/>
+         <property name="sessionId" value="0c950841eb1a235091512e2cbb3059a0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase1_Record/DemoTest" time="15.908" classname="Test Cases/TestCase1_Record/DemoTest" status="PASSED">
+         <system-out><![CDATA[02-07-2024T21:33:54 - [TEST_CASE][PASSED] - Test Cases/TestCase1_Record/DemoTest: Test Cases/TestCase1_Record/DemoTest
+
+02-07-2024T21:33:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-07-2024T21:33:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-07-2024T21:33:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-07-2024T21:33:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-07-2024T21:33:58 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+02-07-2024T21:34:00 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+02-07-2024T21:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/a_Make Appointment")): Object: 'Object Repository/Welcome_Page/a_Make Appointment' is clicked on
+
+02-07-2024T21:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/a_Make Appointment' is clicked on
+
+02-07-2024T21:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Welcome_Page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Welcome_Page/input_Username_username'
+
+02-07-2024T21:34:04 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Welcome_Page/input_Username_username'
+
+02-07-2024T21:34:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Welcome_Page/input_Password_password"), "9NLz+4tGZcQ="): Text ****** has been set on object 'Object Repository/Welcome_Page/input_Password_password'
+
+02-07-2024T21:34:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Welcome_Page/input_Password_password'
+
+02-07-2024T21:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/input_Demo account_form-control")): Object: 'Object Repository/Welcome_Page/input_Demo account_form-control' is clicked on
+
+02-07-2024T21:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/input_Demo account_form-control' is clicked on
+
+02-07-2024T21:34:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Welcome_Page/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Welcome_Page/input_Password_password'
+
+02-07-2024T21:34:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Welcome_Page/input_Password_password'
+
+02-07-2024T21:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/button_Login")): Object: 'Object Repository/Welcome_Page/button_Login' is clicked on
+
+02-07-2024T21:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/button_Login' is clicked on
+
+02-07-2024T21:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/form_Facility                              _20adf0")): Object: 'Object Repository/Welcome_Page/form_Facility                              _20adf0' is clicked on
+
+02-07-2024T21:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/form_Facility                              _20adf0' is clicked on
+
+02-07-2024T21:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Welcome_Page/input_Visit Date (Required)_visit_date' is clicked on
+
+02-07-2024T21:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/input_Visit Date (Required)_visit_date' is clicked on
+
+02-07-2024T21:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/td_30")): Object: 'Object Repository/Welcome_Page/td_30' is clicked on
+
+02-07-2024T21:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/td_30' is clicked on
+
+02-07-2024T21:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/div_Comment")): Object: 'Object Repository/Welcome_Page/div_Comment' is clicked on
+
+02-07-2024T21:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/div_Comment' is clicked on
+
+02-07-2024T21:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/button_Book Appointment")): Object: 'Object Repository/Welcome_Page/button_Book Appointment' is clicked on
+
+02-07-2024T21:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/button_Book Appointment' is clicked on
+
+02-07-2024T21:34:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Welcome_Page/h2_Appointment Confirmation")): Object: 'Object Repository/Welcome_Page/h2_Appointment Confirmation' is clicked on
+
+02-07-2024T21:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Welcome_Page/h2_Appointment Confirmation' is clicked on
+
+02-07-2024T21:34:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Welcome_Page/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Welcome_Page/h2_Appointment Confirmation' are matched.
+
+02-07-2024T21:34:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Welcome_Page/h2_Appointment Confirmation' are matched.
+
+02-07-2024T21:34:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-07-2024T21:34:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-07-2024T21:33:54 - [TEST_SUITE][PASSED] - validateLoginCreds: Test Cases/TestCase1_Record/DemoTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

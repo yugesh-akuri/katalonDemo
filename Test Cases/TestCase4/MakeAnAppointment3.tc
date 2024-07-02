@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Make an appointment through an Seoul Facility</description>
+   <name>MakeAnAppointment3</name>
+   <tag>@smoke, @sanity</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2bcf279e-37db-461e-8545-684374a1b588</testCaseGuid>
+</TestCaseEntity>
